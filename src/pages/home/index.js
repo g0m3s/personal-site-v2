@@ -15,6 +15,11 @@ import linkedin from '../../img/linkedin.png'
 function Home() {
     
     useEffect(() => {
+
+        // var heightPage = document.body.scrollHeight;
+
+        window.scrollTo(0, 10000);
+        // window.scrollTo(0 , heightPage);
         
         // var objDiv = document.getElementById("initialScreen");
         // window.scrollTo(objDiv.clientHeight,objDiv.clientHeight);
@@ -167,6 +172,8 @@ function Home() {
                 <h1 className='boxText' >Olá :)</h1>
                     
             </section>
+            
+            {/* <section id='initialScreen' ></section> */}
 
         </div>
 
