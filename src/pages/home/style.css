@@ -332,7 +332,7 @@
     .fifthScreen {
 
         background-size: auto;
-        background-attachment: unset;
+        /* background-attachment: unset; */
 
     }
 
@@ -359,7 +359,7 @@
     .fourthScreen {
 
         background-size: auto;
-        background-attachment: unset;
+        /* background-attachment: unset; */
 
     }
 
