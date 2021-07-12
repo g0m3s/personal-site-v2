@@ -40,6 +40,7 @@
 .boxProject img {
 
     width: 100px;
+    border-radius: 10px;
 
 }
 
@@ -59,7 +60,7 @@
 
 }
 
-.fifthScreen  > div ul img {
+.fifthScreen > div ul img {
 
     width: 80px;
     margin: 0 15px;
@@ -216,10 +217,6 @@
 
 }
 
-.secondScreen img {
-    margin-bottom: -15px;
-}
-
 .initialScreen h1 {
 
     font-size: 30pt;
@@ -367,12 +364,14 @@
     .thirdScreen {
 
         background-size: auto;
+        background-position: center center;
 
     }
 
     .secondScreen {
 
         background-size: auto;
+        background-position: center center;
 
     }
 

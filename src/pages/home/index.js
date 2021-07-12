@@ -7,7 +7,7 @@ import wave2 from '../../img/wave5.svg'
 import wave3 from '../../img/wave6.svg'
 import logoAurea from '../../img/logoAurea.png'
 import empadica from '../../img/empadica.png'
-import logoEmporio from '../../img/logoEmporio.png'
+import logoEmporio from '../../img/logoEmporio2.png'
 
 import github from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
@@ -161,7 +161,7 @@ function Home() {
                 
                 </div>
                     
-                <img src={wave} />
+                <img src={wave} className='wave' />
 
             </section>
 
