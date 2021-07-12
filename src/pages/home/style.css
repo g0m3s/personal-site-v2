@@ -28,7 +28,6 @@
 
 }
 
-
 .boxProject p {
 
     margin: 3px 0;
@@ -59,7 +58,6 @@
     background-color: white;
 
 }
-
 
 .fifthScreen  > div ul img {
 
@@ -320,6 +318,67 @@
 
         transform: 
             translateY(0px);
+
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .boxProject {
+
+        margin: 10px 0;
+
+    }
+    
+
+    .fifthScreen {
+
+        background-size: auto;
+
+    }
+
+    .fourthScreen  > div ul {
+
+        flex-direction: column;
+
+    }
+
+    .fourthScreen  > div > div span{
+    
+        font-size: 15pt;
+        position: absolute;
+        margin: 0 auto;
+    
+    }
+
+    .fourthScreen  > div > div svg {
+
+        width: 90%;
+
+    }
+
+    .fourthScreen {
+
+        background-size: auto;
+
+    }
+
+    .thirdScreen {
+
+        background-size: auto;
+
+    }
+
+    .secondScreen {
+
+        background-size: auto;
+
+    }
+
+    .wave {
+
+        margin-bottom: auto;
 
     }
     
