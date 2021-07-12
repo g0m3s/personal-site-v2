@@ -18,7 +18,7 @@ function Home() {
 
         // var heightPage = document.body.scrollHeight;
 
-        window.scrollTo(0, 10000);
+        window.scrollTo(0, 999999);
         // window.scrollTo(0 , heightPage);
         
         // var objDiv = document.getElementById("initialScreen");
