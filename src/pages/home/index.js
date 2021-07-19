@@ -26,8 +26,9 @@ function Home() {
         // var objDiv = document.getElementById("initialScreen");
         // window.scrollTo(objDiv.clientHeight,objDiv.clientHeight);
         
-        // window.scrollTo(0, 999999);
+        window.scrollTo(0, 999999);
     }, []);
+
 
     return (
 

@@ -193,7 +193,7 @@
 
     padding-top: 3vh;
     width: 100vw;
-    margin-bottom: 15vh;
+    /* padding-bottom: 15vh; */
     background-color: black;
     background-position: center;
     background-attachment: fixed;
@@ -227,12 +227,13 @@
 .thirdScreen {
 
     width: 100vw;
-    margin-bottom: 15vh;
+    padding-bottom: 15vh;
     background-size: cover;
     /* background-color: black; */
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    /* background-image: url('../../img/asteroids3.png'); */
     background-image: url('../../img/asteroids.png');
 
 }
@@ -391,7 +392,7 @@
 
     .fifthScreen {
 
-        background-size: cover;
+        background-attachment: local;
 
     }
 
@@ -430,17 +431,17 @@
 
     .thirdScreen {
 
-        background-size: auto;
-        background-position: center center;
+        /* background-size: auto; */
+        background-attachment: local;
+        /* background-position: center center; */
 
     }
 
     .secondScreen {
 
-        background-size: auto;
+        /* background-size: auto; */
         background-attachment: local;
-        background-position: center center;
-
+        /* background-position: center center; */
 
     }
 
