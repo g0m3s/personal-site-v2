@@ -5,9 +5,16 @@ import './style.css'
 import wave from '../../img/wave.svg'
 import wave2 from '../../img/wave5.svg'
 import wave3 from '../../img/wave6.svg'
+
 import logoAurea from '../../img/logoAurea.png'
 import empadica from '../../img/empadica.png'
 import logoEmporio from '../../img/logoEmporio2.png'
+import canvacriativo from '../../img/canvaCriativo.png'
+
+import reactLogo from '../../img/reactLogo.png'
+import tsLogo from '../../img/typescriptLogo.png'
+import node from '../../img/nodeLogo.png'
+import firebase from '../../img/firebaseLogo.png'
 
 import github from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
@@ -16,21 +23,17 @@ function Home() {
     
     useEffect(() => {
 
-        // var heightPage = document.body.scrollHeight;
-
-        window.scrollTo(0, 999999);
-        // window.scrollTo(0 , heightPage);
-        
         // var objDiv = document.getElementById("initialScreen");
         // window.scrollTo(objDiv.clientHeight,objDiv.clientHeight);
-
+        
+        // window.scrollTo(0, 999999);
     }, []);
 
     return (
 
         <div className="homePage flexDisplay" id="homePage" >
 
-            <section className='fifthScreen'>
+            <section className='sixthScreen' >
 
                 <div>
 
@@ -43,6 +46,19 @@ function Home() {
 
                 </div>
 
+            </section>
+
+            <section className='fifthScreen'>
+
+                <ul>
+                    <li><img src={tsLogo} /></li>
+                    <li><img src={reactLogo} /></li>
+                    <li><img src={firebase} /></li>
+                    <li><img src={node} /></li>
+                </ul>
+
+                <h2 className='boxTextBorder' >Tecnologias com que trabalho atualmente</h2>
+
                 <img src={wave3} className='wave'/>
 
             </section>
@@ -53,21 +69,29 @@ function Home() {
 
                     <ul>
 
-                        <li className='boxProject' >
+                        <li>
 
-                            <img src={logoEmporio} />
-                            <b>Empório Bom Jardim</b>
-                            <p>Uma plataforma de e-commerce de produtos orgânicos</p>
-                            <p>Atuei como scrum master no squad que desenvolveu a plataforma</p>
+                            <a className='boxProject' href='https://emporio-chi.vercel.app/' target='_blank' >
+
+                                <img src={logoEmporio} />
+                                <b>Empório Bom Jardim</b>
+                                <p>Uma plataforma de e-commerce de produtos orgânicos</p>
+                                <p>Atuei como scrum master no squad que desenvolveu a plataforma</p>
+
+                            </a>
 
                         </li>
 
-                        <li className='boxProject' >
+                        <li>
 
-                            <img src={logoAurea} />
-                            <b>Canva Criativo</b>
-                            <p>Uma landing page para venda de um curso sobre canva</p>
-                            <p>Foi um grande desafio pois foi feito em uma tarde e justamente por isso a versão mobile está infinitamente melhor que a desktop</p>
+                            <a className='boxProject' href='https://www.canvacriativo.com/' target='_blank' >
+
+                                <img src={canvacriativo} />
+                                <b>Canva Criativo</b>
+                                <p>Uma landing page para venda de um curso sobre canva</p>
+                                <p>Foi um grande desafio pois foi feito em uma tarde e justamente por isso a versão mobile está infinitamente melhor que a desktop</p>
+
+                            </a>
 
                         </li>
 
@@ -75,21 +99,29 @@ function Home() {
 
                     <ul>
 
-                        <li className='boxProject' >
+                        <li>
 
-                            <img src={logoAurea} />
-                            <b>Site da Aurea</b>
-                            <p>Atuei como scrum master no squad que desenvolveu o site</p>
-                            <p>A ideia aqui é demostrar um pouco da empresa e dos serviços que ela oferece</p>
+                            <a className='boxProject' href='https://aureaej.com/' target='_blank' >
+
+                                <img src={logoAurea} />
+                                <b>Site da Aurea</b>
+                                <p>Atuei como scrum master no squad que desenvolveu o site</p>
+                                <p>A ideia aqui é demostrar um pouco da empresa e dos serviços que ela oferece</p>
+
+                            </a>
 
                         </li>
 
-                        <li className='boxProject' >
+                        <li>
 
-                            <img src={empadica} />
-                            <b>Empadiça</b>
-                            <p>Foi um serviço de freelancer feito junto de um amigo</p>
-                            <p>Fiquei responsável pelo backend. Aqui utilizamos o Firebase.</p>
+                            <a className='boxProject' href='http://empadica.com/' target='_blank' >
+
+                                <img src={empadica} />
+                                <b>Empadiça</b>
+                                <p>Foi um serviço de freelancer feito junto de um amigo</p>
+                                <p>Fiquei responsável pelo backend. Aqui utilizamos o Firebase.</p>
+
+                            </a>
 
                         </li>
 
@@ -106,8 +138,6 @@ function Home() {
                     </div>
 
                     <img src={wave2} className='wave'/>
-                    
-                    {/* <h3 className='boxTextBlackBorder' >Meus projetos</h3> */}
                 
                 </div>
                     

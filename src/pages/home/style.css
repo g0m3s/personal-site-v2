@@ -60,7 +60,7 @@
 
 }
 
-.fifthScreen > div ul img {
+.sixthScreen > div ul img {
 
     width: 80px;
     margin: 0 15px;
@@ -68,7 +68,7 @@
 
 }
 
-.fifthScreen  > div ul {
+.sixthScreen  > div ul {
 
     width: 100%;
     display: flex;
@@ -78,13 +78,46 @@
 
 }
 
-.fifthScreen > div {
+.sixthScreen > div {
 
     width: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+}
+
+.sixthScreen {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100vw;
+    padding-top: 15vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url('../../img/asteroids.png');
+
+}
+
+.fifthScreen ul img{
+
+    width: 80px;
+
+}
+
+.fifthScreen ul {
+
+    width: 75%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -128,6 +161,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+}
+
+.fourthScreen > div a {
+
+    text-decoration: none;
 
 }
 
@@ -247,9 +286,10 @@
     height: 100vh;
     background-color: black;
     justify-content: flex-start;
-    background-position: bottom;
+    background-size: 30%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../../img/gifHello.gif');
+    background-image: url('../../img/babYoda.gif');
 
 }
 
@@ -327,12 +367,31 @@
         margin: 10px 0;
 
     }
-    
 
-    .fifthScreen {
+    .sixthScreen {
 
         background-size: auto;
         /* background-attachment: unset; */
+
+    }
+
+    .fifthScreen ul img {
+
+        width: 60px;
+
+    }
+
+    .fifthScreen h2 {
+
+        font-size: 12pt;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .fourthScreen > div a {
+
+        text-decoration: none;
 
     }
 
@@ -373,13 +432,21 @@
     .secondScreen {
 
         background-size: auto;
+        background-attachment: local;
         background-position: center center;
+
 
     }
 
     .wave {
 
         margin-bottom: auto;
+
+    }
+
+    .boxTextBorder {
+
+        max-width: 80vw;
 
     }
     
