@@ -26,7 +26,7 @@ function Home() {
         // var objDiv = document.getElementById("initialScreen");
         // window.scrollTo(objDiv.clientHeight,objDiv.clientHeight);
         
-        // window.scrollTo(0, 999999);
+        window.scrollTo(0, 999999);
     }, []);
 
 
@@ -90,7 +90,7 @@ function Home() {
                                 <img src={canvacriativo} />
                                 <b>Canva Criativo</b>
                                 <p>Uma landing page para venda de um curso sobre canva</p>
-                                <p>Foi um grande desafio pois foi feito em uma tarde e justamente por isso a versão mobile está infinitamente melhor que a desktop</p>
+                                <p>Foi um grande desafio pois foi feito em uma tarde e justamente por isso a versão mobile está infinitamente melhor que a desktop :)</p>
 
                             </a>
 
@@ -171,8 +171,8 @@ function Home() {
             <section className='secondScreen flexDisplay'>
 
                 <div>
-                    
-                    <h3 className='boxTextBlack' >E por isso estou em busca de um trabalho como desenvolvedor. Indo além dos meus jobs como freelancer</h3>
+
+                    <h3 className='boxTextBlack'>E por isso estou em busca de um trabalho como desenvolvedor. Indo além dos meus jobs como freelancer</h3>
 
                     <h3 className='boxTextBlack'>Mas sinto que está na hora de dar mais um passo</h3>
 
@@ -186,7 +186,7 @@ function Home() {
 
                     <h3 className='boxTextBlack'>Também brinquei bastante com o scratch até decidir que realmente era isso que queria pra minha vida</h3>
 
-                    <h3 className='boxTextBlack'>Naquela época eu fazia vários "virus" no bloco de notas para assustar meu amigos</h3>
+                    <h3 className='boxTextBlack'>Naquela época eu fazia vários "vírus" no bloco de notas para assustar meu amigos</h3>
 
                     <h3 className='boxTextBlack'>Me chamo Gabriel, tenho 19 anos e sou completamente apaixonado por programação desde sei lá, meus 12 anos</h3>
                 
