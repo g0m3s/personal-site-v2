@@ -26,7 +26,7 @@ function Home() {
         // var objDiv = document.getElementById("initialScreen");
         // window.scrollTo(objDiv.clientHeight,objDiv.clientHeight);
         
-        window.scrollTo(0, 999999);
+        // window.scrollTo(0, 999999);
     }, []);
 
 
@@ -171,7 +171,7 @@ function Home() {
             <section className='secondScreen flexDisplay'>
 
                 <div>
-
+                    
                     <h3 className='boxTextBlack' >E por isso estou em busca de um trabalho como desenvolvedor. Indo além dos meus jobs como freelancer</h3>
 
                     <h3 className='boxTextBlack'>Mas sinto que está na hora de dar mais um passo</h3>
@@ -188,7 +188,7 @@ function Home() {
 
                     <h3 className='boxTextBlack'>Naquela época eu fazia vários "virus" no bloco de notas para assustar meu amigos</h3>
 
-                    <h2 className='boxTextBlack'>Me chamo Gabriel, tenho 19 anos e sou completamente apaixonado por programação desde sei lá, meus 12 anos</h2>
+                    <h3 className='boxTextBlack'>Me chamo Gabriel, tenho 19 anos e sou completamente apaixonado por programação desde sei lá, meus 12 anos</h3>
                 
                 </div>
                     

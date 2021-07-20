@@ -8,6 +8,14 @@
 :root {
 
     overflow-x: hidden;
+    /* cursor: url('../../img/rocket.gif'), auto; */
+
+}
+
+body {
+
+    cursor: url('https://greatlaunches.ffwd.rocks/assets/mao1.png'), auto;
+    /* cursor: url(../assets/mao1.png), auto; */
 
 }
 
@@ -287,10 +295,11 @@
     height: 100vh;
     background-color: black;
     justify-content: flex-start;
-    background-size: 30%;
-    background-position: center;
+    /* background-size: 50%; */
+    background-position: center bottom;
     background-repeat: no-repeat;
-    background-image: url('../../img/babYoda.gif');
+    background-image: url('../../img/astronauta3.gif');
+    /* background-image: url('../../img/babYoda.gif'); */
 
 }
 
